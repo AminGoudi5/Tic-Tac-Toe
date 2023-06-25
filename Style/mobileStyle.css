@@ -23,9 +23,11 @@
         left: 5%;
         top: -26%;
     }
+
     .padding {
         padding-bottom: 20%;
     }
+
     .d-grid2 {
         width: 80%;
         display: flex;
@@ -53,13 +55,16 @@
         border: 4px solid white;
         padding: 8px;
     }
-    .winner p{
+
+    .winner p {
         left: 20%;
     }
-    .winner img{
+
+    .winner img {
         left: 25%;
         top: 28%;
     }
+
     .nowinner img {
         position: absolute;
         left: 5%;

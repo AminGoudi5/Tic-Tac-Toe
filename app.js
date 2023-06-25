@@ -176,7 +176,7 @@ window.addEventListener('load', function () {
                         });
                     });
                 }
-                
+
                 function playComputerTurn() {
                     const emptyCells = Array.from(rows).filter(item => !item.classList.contains('cross') && !item.classList.contains('circle'));
                     if (emptyCells.length > 0) {
