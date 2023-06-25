@@ -1,0 +1,70 @@
+@media (max-width: 576px) {
+    .container .img {
+        display: none;
+    }
+
+    .container {
+        background-image: url('../image/mobailbg.png');
+        height: 100vh;
+        background-size: cover;
+        color: white;
+    }
+
+    .d-grid table {
+        opacity: 0 !important;
+    }
+
+    .d-grid2 table {
+        height: 40vh !important;
+    }
+
+    .d-grid {
+        grid-template-columns: 100%;
+        left: 5%;
+        top: -26%;
+    }
+    .padding {
+        padding-bottom: 20%;
+    }
+    .d-grid2 {
+        width: 80%;
+        display: flex;
+        top: 5%;
+        left: 12%;
+        position: absolute;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .scoreboard {
+        font-family: 'Mythical Glorious', sans-serif;
+        text-align: center;
+        display: flex;
+        grid-template-rows: 25% 25% 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scoreboard input[type="submit"] {
+        width: 100%;
+    }
+
+    td {
+        border: 4px solid white;
+        padding: 8px;
+    }
+    .winner p{
+        left: 20%;
+    }
+    .winner img{
+        left: 25%;
+        top: 28%;
+    }
+    .nowinner img {
+        position: absolute;
+        left: 5%;
+        width: 90%;
+        top: 25%;
+    }
+
+}
